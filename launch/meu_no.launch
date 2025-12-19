@@ -1,0 +1,13 @@
+<launch>
+  <!-- Nome do robot -->
+  <arg name="robot" default="duckie5" />
+
+  <!-- Nó wall follower -->
+  <node pkg="wall_follower"
+        type="meu_no.py"
+        name="wall_follower_meu_no"
+        output="screen">
+    <param name="robot" value="$(arg robot)" />
+  </node>
+</launch>
+
