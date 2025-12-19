@@ -1,5 +1,5 @@
-#Versão 1.0 Para teste do git
 #!/usr/bin/env python3
+#Versão 1.0 Para teste do git
 import rospy
 from sensor_msgs.msg import Range
 from duckietown_msgs.msg import WheelsCmdStamped
